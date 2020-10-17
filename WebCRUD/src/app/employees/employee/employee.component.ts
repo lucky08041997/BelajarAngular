@@ -19,6 +19,6 @@ export class EmployeeComponent implements OnInit {
 
   onClear() {
     this.service.form.reset();
-    this.service.initialiazeFormGroup();
+    this.service.initializeFormGroup();
   }
 }

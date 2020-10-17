@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EmployeesComponent } from './employees/employees.component';
 import { EmployeeComponent } from './employees/employee/employee.component';
 import { EmployeeService } from './employee.service';
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { EmployeeService } from './employee.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [EmployeeService],
   bootstrap: [AppComponent]

@@ -1,4 +1,4 @@
-<form [formGroup]="service.form" class="normal-form">
+<form [formGroup]="service.form"class="normal-form">
     <mat-grid-list cols="2" rowHeight="300px">
         <mat-grid-tile>
             <div class="controles-container">
@@ -48,7 +48,7 @@
                 </div>
                 <div class="button-row">
                     <button mat-raised-button color="primary" type="submit">Submit</button>
-                    <button mat-raised-button color="warn">Clear</button>
+                    <button mat-raised-button color="warn" (click)="onClear()">Clear</button>
                 </div>
             </div>
         </mat-grid-tile>

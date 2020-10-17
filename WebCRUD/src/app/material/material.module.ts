@@ -39,6 +39,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatCheckboxModule,
     MatButtonModule,
     MatToolbarModule
-  ],
+  ]
 })
 export class MaterialModule { }
